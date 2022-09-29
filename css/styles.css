@@ -1,0 +1,37 @@
+:root{
+    --color-primary:var(--color-primary)
+}
+
+body{
+    color: var();
+    font-family: ;
+    font-size: ;
+    font-weight: ;
+    background-color: var();
+    
+}
+
+/* site-nav list*/
+.site-nav {
+    color: ;
+}
+.site-nav:hover {
+    color: ;
+}
+.site-nav:focus {
+    color: ;
+}
+
+/* link */
+
+/* button */
+
+/* hero */
+.hero-title {
+
+}
+
+/* section*/
+.section-title {
+    color: ;
+}
