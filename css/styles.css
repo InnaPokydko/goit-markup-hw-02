@@ -1,5 +1,7 @@
 :root{
-    --color-primary:var(--color-primary)
+    --color-primary: var(--color-primary);
+    --title-text-color: var();
+    --accent-color: var();
 }
 
 body{
@@ -25,6 +27,10 @@ body{
 /* link */
 
 /* button */
+.button {
+    background-color: ;
+    color: ;
+}
 
 /* hero */
 .hero-title {
@@ -35,3 +41,17 @@ body{
 .section-title {
     color: ;
 }
+
+/*Приховані заголовки*/
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  }
