@@ -5,11 +5,12 @@
 }
 
 body{
-    color: var();
-    font-family: ;
-    font-size: ;
-    font-weight: ;
     background-color: var();
+    color: var();
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    
     
 }
 
@@ -28,8 +29,18 @@ body{
 
 /* button */
 .button {
-    background-color: ;
+    background-color: #2196F3;
     color: ;
+   
+    position: absolute;
+width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 
 /* hero */
