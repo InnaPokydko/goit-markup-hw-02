@@ -7,7 +7,7 @@
 }
 
 body{
-    color: var(--title-text-color);
+    color: var(--primary-text-color);
     background-color: var(--primary-background-color);
 
     font-family: 'Roboto', sans-serif;
@@ -48,19 +48,19 @@ line-height: 1,19;
 }
 
 .link {
-    color: var(accent-color);
+    color: var(--accent-color);
   }
 
   .link:hover {
-    color: var(accent-color);
+    color: var(--accent-color);
   }
 
   .link:focus {
-    color: var(accent-color);
+    color: var(--accent-color);
   }
 
   .link:active {
-    color: var(accent-color);
+    color: var(--accent-color);
   }
 
   .link.current {
@@ -74,7 +74,7 @@ line-height: 1,19;
 
     /* hero */
   .hero {
-    background-color: #2F303A;
+    background-color: var(--secondary-background-color);
          }
 
   .hero-title {
@@ -85,54 +85,66 @@ line-height: 1,19;
 
 /* button */
 .button {
-    background-color: #2196F3;
-    color: var(--primary-background-color);
+    background-color:var(--accent-color);
+        color: var(--primary-background-color);
     font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-   
- }
+    }
+    
+    .button {
+        cursor: pointer;
+    }
 
 .button:hover {
-    color: ;
+    color: #188CE8;
 }
 
 .button:focus {
-    color: ;
+    color: #188CE8;
 }
 
 .button:active {
-
+    color: #188CE8;
 }
 
 /*title h2*/
 title {
-    color: var(--title-text-color) ;
+    color: var(--title-text-color);
+
+    font-weight: 700;
+font-size: 36px;
+line-height: 1,17;
 }
 
 /*features*/
 .feature.list-title {
+    color: var(--title-text-color);
 
-}
-
-.features.text {
-
+    font-weight: 700;
+font-size: 14px;
+line-height: 1,14;
 }
 
 /*works*/
-.teame-title {
 
-}
 
 /*teame-section*/
+.teame-section { 
+    background-color: #F5F4FA;
+}
 .name {
+    color: var(--title-text-color);
 
+    font-weight: 500;
+font-size: 16px;
+line-height: 1,19;
 }
 
 .profession {
-
+    font-size: 16px;
+line-height: 1,19;
 }
-
 
 /*Приховані заголовки*/
 .visually-hidden {
@@ -153,23 +165,23 @@ title {
     background-color: var(--secondary-background-color);
   }
   .footer-studio {
-
+    color: var(--primary-background-color);
   }
 
    .footer-address {
-
+    color: var(--primary-background-color);
   }
 
   .footer-list {
-
+    color: rgba(255, 255, 255, 0.6);;
   }
 
   .footer-emeil:hover, .footer-tel:hover {
-
+    color: var(--accent-color);
   }
 
   .footer-emeil:focus, .footer-tel:focus {
-
+    color: var(--accent-color);
   }
 
   
