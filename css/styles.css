@@ -1,10 +1,14 @@
+:root{
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--primary-background-color: #F5F5F5;
+--secondary-background-color: #2F303A;
+}
 
 body{
-    --color-primary: var(--color-primary);
-    --title-text-color: var();
-    --accent-color: var();
-    background-color: var();
-    color: var();
+    color: var(--title-text-color);
+    background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -14,23 +18,33 @@ body{
 
 /*header*/
 .header {
+    background-color: #FFFFFF;
+    color: ;
 
 }
 
-/* site-nav list*/
-.site-nav {
+.list {
+    list-style: none;
+}
+
+/*nav list*/
+.nav-links {
     color: ;
 }
 
-.site-nav:hover {
+.nav-links.link:hover {
     color: ;
 }
 
-.site-nav:focus {
+.nav-links.link:focus {
     color: ;
 }
 
-.site-nav:active {
+.nav-links.link:active {
+
+}
+
+.logo {
 
 }
 
@@ -59,21 +73,41 @@ body{
 
   }
 
+  .header-emeil:hover {
+
+  }
+
+  .header-emeil:focus {
+
+  }
+
+  .header-tel:hover {
+
+  }
+
+  .header-tel:focus {
+
+  }
+
+  /* hero */
+  .hero {
+    background-color: #2F303A;
+  }
+.hero-title {
+
+}
+
 /* button */
 .button {
     background-color: #2196F3;
-    color: ;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
    
-    position: absolute;
-width: 216px;
-height: 50px;
-left: 692px;
-top: 430px;
-
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-}
+ }
 
 .button:hover {
     color: ;
@@ -87,17 +121,12 @@ border-radius: 4px;
 
 }
 
-/* hero */
-.hero-title {
-
+/*title h2*/
+title {
+    color: var(--title-text-color) ;
 }
 
 /*features*/
-.features-title {
-    color: ;
-}
-
-
 .feature.list-title {
 
 }
@@ -106,14 +135,12 @@ border-radius: 4px;
 
 }
 
-.works-title {
-
-}
-
+/*works*/
 .teame-title {
 
 }
 
+/*teame-section*/
 .name {
 
 }
@@ -154,6 +181,21 @@ border-radius: 4px;
 
   }
 
+  .footer-emeil:hover {
+
+  }
+
+  .footer-emeil:focus {
+
+  }
+
+  .footer-tel:hover {
+
+  }
+
+  .footer-tel:focus {
+
+  }
 
   /*portfolio.html*/
   .portfolio-section {
