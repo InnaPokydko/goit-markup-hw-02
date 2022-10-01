@@ -1,10 +1,8 @@
-:root{
+
+body{
     --color-primary: var(--color-primary);
     --title-text-color: var();
     --accent-color: var();
-}
-
-body{
     background-color: var();
     color: var();
     font-family: 'Roboto', sans-serif;
@@ -14,18 +12,52 @@ body{
     
 }
 
+/*header*/
+.header {
+
+}
+
 /* site-nav list*/
 .site-nav {
     color: ;
 }
+
 .site-nav:hover {
     color: ;
 }
+
 .site-nav:focus {
     color: ;
 }
 
+.site-nav:active {
+
+}
+
+.header-studio {
+
+}
+
 /* link */
+.link {
+    color: ;
+  }
+
+  .link:hover {
+    color: ;
+  }
+
+  .link:focus {
+    color: ;
+  }
+
+  .link:active {
+
+  }
+
+  .link.current {
+
+  }
 
 /* button */
 .button {
@@ -43,15 +75,53 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
 
+.button:hover {
+    color: ;
+}
+
+.button:focus {
+    color: ;
+}
+
+.button:active {
+
+}
+
 /* hero */
 .hero-title {
 
 }
 
-/* section*/
-.section-title {
+/*features*/
+.features-title {
     color: ;
 }
+
+
+.feature.list-title {
+
+}
+
+.features.text {
+
+}
+
+.works-title {
+
+}
+
+.teame-title {
+
+}
+
+.name {
+
+}
+
+.profession {
+
+}
+
 
 /*Приховані заголовки*/
 .visually-hidden {
@@ -66,3 +136,74 @@ border-radius: 4px;
       clip-path: inset(50%);
       margin: -1px;
   }
+
+  /*footer*/
+  .footer {
+    background-color: ;
+  }
+  .footer-studio {
+
+  }
+
+  /*address*/
+  .footer-address {
+
+  }
+
+  .footer-list {
+
+  }
+
+
+  /*portfolio.html*/
+  .portfolio-section {
+
+  }
+
+  .portfolio-title {
+
+  }
+
+  /*button*/
+  .portfolio-button {
+
+  }
+
+  .portfolio-button:hover {
+    
+}
+
+.portfolio-button:focus {
+    
+}
+.portfolio-button:active {
+    
+}
+
+ .portfolio-links {
+
+ } 
+
+ .portfolio.link {
+
+ }
+
+ .portfolio.link:hover {
+    
+}
+
+ .portfolio.link:focus {
+    
+}
+
+.portfolio.link:active {
+    
+}
+
+.project-title {
+
+}
+
+.project-text {
+
+}
